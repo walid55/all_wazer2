@@ -10,6 +10,7 @@
 #:))
 #ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
 #
+]]
 local function run(msg, matches)
 	if matches[1] == 'نشر' and is_admin1(msg) then
 		local response = matches[3]
