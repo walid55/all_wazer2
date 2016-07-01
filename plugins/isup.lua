@@ -10,6 +10,7 @@
 #:))
 #ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
 #
+]]
 do
 local socket = require("socket")
 local cronned = load_from_file('data/isup.lua')
