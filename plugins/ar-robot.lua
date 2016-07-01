@@ -10,6 +10,7 @@
 #:))
 #ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
 #
+]]
 local function is_channel_disabled( receiver )
 	if not _config.disabled_channels then
 		return false
