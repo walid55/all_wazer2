@@ -10,6 +10,7 @@
 #:))
 #ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
 #
+]]
 local function isAntiBotEnabled (chatId)
   local hash = 'bot:lock:'..chatId
   local lock = redis:get(hash)
