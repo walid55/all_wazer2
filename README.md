@@ -1,5 +1,5 @@
-قـــــنأْةَ ألسـورسَ ✋🏿👇🏻Source channel
-# [ASD_KARBALA](https://telegram.me/S94IQ)
+
+# [كروب الدعم الخاص بلسورس اضغط هنا](https://telegram.me/joinchat/CtRzsz-hgUqVD58sq-3-6w)
 
 
 *******************************************************************
@@ -21,11 +21,11 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 ************************************************************
 ورأهأَ خلي👇🏿
 **************
-git clone https://github.com/SAJJAD94/ASD_KARBALA.git
+git clone https://github.com/zaeem998/vtbot.git
 *****************************************************
 ورهأ خلي 👇🏿 And vinegary
 **************************
-cd ASD_KARBALA
+cd vtbot
 **************************
 ورهأَ خلي👇🏿 And vinegary
 **************************
@@ -63,7 +63,7 @@ redis-server
 وفتح ترمنال ثاني وخلي 👇🏿 Open Terminal and second vinegary
 ```sh
 
-sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson* libpython-dev make unzip git redis-server g++ -y --force-yes && git clone https://github.com/SAJJAD94/ASD_KARBALA.git && cd ASD_KARBALA && chmod +x launch.sh && ./launch.sh install && ./launch.sh
+sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson* libpython-dev make unzip git redis-server g++ -y --force-yes && git clone https://github.com/zaeem998/vtbot.git && cd vtbot && chmod +x launch.sh && ./launch.sh install && ./launch.sh
 ```
 
 * * *
@@ -81,16 +81,16 @@ Open ./data/config.lua and add your ID to the "sudo_users" section in the follow
 ✋🏿 لتصبح مطور بوتك غير الايدي خاص كونفج بايديك 👇🏿
 ```
   sudo_users = {
-    18293081,
-    0,
+    181695411,
+    155325853,
     YourID
   }
 ```
 😘 مـبروَك أصبَحتـَ مـطورَ بوـتكَ لتوأصل معي 
 
-#Dev : [@SAJJADNOORI](https://telegram.me/SAJJADNOORI)
-#Dev_BOT :  [@S94_BOT](https://telegram.me/S94_BOT)
-#Dev_Channel :  [@S94IQ](https://telegram.me/S94IQ)
+#Dev : [محمد](https://telegram.me/A1_d1)
+#Dev :  [عبد الله](https://telegram.me/M1_l1)
+
 
 عندكَ فكره تطوير السورس او البوت تفظل هنأَ☝🏿️
 You have an idea to develop Alsoors or bot prefer ☝🏿️✋🏿
