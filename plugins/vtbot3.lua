@@ -52,7 +52,7 @@ return {
 description = "Help list", 
 usage = "Help list",
 patterns = {
-"^(م2)$",
+"^(مساعده)$",
 },
 run = run 
 }
