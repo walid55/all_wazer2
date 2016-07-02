@@ -33,6 +33,7 @@ do local _ = {
     "ar-lock-fwd",
     "ar-me",
     "en-me",
+    "aa",
     "ar-plugins",
     "en-plugins",
     "ar-image",
