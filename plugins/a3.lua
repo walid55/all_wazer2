@@ -19,7 +19,7 @@ do
 
   usage = "",
   patterns = {
-  "^محمد$"
+  "^@m1_l1$"
 
   },
   run = run
