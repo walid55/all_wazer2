@@ -1,8 +1,7 @@
 --[[
 
 #
-#     @DevPointCH
-#   @MasterTeamCH
+#     @m1_l1
 #      
 
 ]]
@@ -36,7 +35,7 @@ local function get_weather(location)
     conditions = conditions .. 'مه 🌫'
   end
 
-  return temp .. '\n\n' .. conditions..'\n\nchannel : @Dev_hasoony'
+  return temp .. '\n\n' .. conditions..'\n\nchannel : @Dev_neew'
 end
 local function DevPoint(msg, matches) 
     city = matches[1]
