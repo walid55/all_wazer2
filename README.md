@@ -1,75 +1,19 @@
-
-# [كروب الدعم الخاص بلسورس اضغط هنا](https://telegram.me/joinchat/CtRzsz-hgUqVD58sq-3-6w)
-
-
-*******************************************************************
-```sh
-
-# Let's install the bot.
-افتـح ترمنـــأل وخلي 👇🏿 Open Terminal and vinegary
-
-sudo apt-get update 
-
-ورهأَ خلي 👇🏿 And vinegary
-
-redis-server
-تركه مفتوح✋🏿  Leave it open Terminal
-
-وفتح ترمنال ثاني وخلي 👇🏿 Open Terminal and second vinegary
-************************************************************
-sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson* libpython-dev make unzip git redis-server g++ -y --force-yes
-************************************************************
-ورأهأَ خلي👇🏿
-**************
-git clone https://github.com/zaeem998/vtbot.git
-*****************************************************
-ورهأ خلي 👇🏿 And vinegary
-**************************
-cd vtbot
-**************************
-ورهأَ خلي👇🏿 And vinegary
-**************************
-chmod +x launch.sh
-**************************
-ورهأَ خلي👇🏿 And vinegary
-**************************
-./launch.sh install
-**************************
-ورهأَ خلي👇🏿 And vinegary
-**************************
-./launch.sh 
-**************************
-يطلب رقم خلي رقم البوت ✋🏿😘
-مبروك عليك افضل بوت عل تلي 😍
-
-# Enter a phone number & confirmation code.
-Congratulations, you better bot
-```
-### One command
-To install everything in one command (useful for VPS deployment) on Debian-based distros, use:
-
-لتنصيب البوـب بكوَدَ واحد فقط َ ✋🏿😘👇🏿 To install one code
-
-فتح ترمنال وخلي 👇🏿 Open Terminal and vinegary
+لتصيب سورس vtbot
+وفتح ترمنال  وخلي 
 *******************
 sudo apt-get update 
 *******************
-ورهأَ خلي 👇🏿 And vinegary
-*******************
-redis-server
-*******************
-تركه مفتوح✋🏿 Leave it open Terminal
+وفتح ترمنال ثاني وخلي 
+******************* 
 
-وفتح ترمنال ثاني وخلي 👇🏿 Open Terminal and second vinegary
-```sh
-
-sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson* libpython-dev make unzip git redis-server g++ -y --force-yes && git clone https://github.com/zaeem998/vtbot.git && cd vtbot && chmod +x launch.sh && ./launch.sh install && ./launch.sh
-```
+sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev && git clone https://github.com/zaeem998/vtbot.git && cd vtbot && chmod +x launch.sh &&
+./launch.sh install &&./launch.sh 
+*******************
 
 * * *
-يطلب رقم خلي رقم البوت ✋🏿😘
-مبروك عليك افضل بوت عل تلي 😍
-
+يطلب رقم خلي رقم البوت ✋ߏﰟؘ
+مبروك عليك افضل بوت عل تلي ߘ͊
+ملاحضه : تركت بعض لملفات مفعلتهن انته فعلهن حسب رغبتك 
 # Enter a phone number & confirmation code.
 Congratulations, you better bot
 
@@ -78,19 +22,17 @@ Congratulations, you better bot
 After you run the bot for first time, send it `!id`. Get your ID and stop the bot.
 
 Open ./data/config.lua and add your ID to the "sudo_users" section in the following format:
-✋🏿 لتصبح مطور بوتك غير الايدي خاص كونفج بايديك 👇🏿
-```
+✋ߏĘ꘵بح مطور بوتك غير الايدي خاص كونفج بايديك ߑǰߏ``
   sudo_users = {
     181695411,
     155325853,
     YourID
   }
 ```
-😘 مـبروَك أصبَحتـَ مـطورَ بوـتكَ لتوأصل معي 
+ߘؠمـبروَك أصبَحتـَ مـطورَ بوـتكَ لتوأصل معي 
 
 #Dev : [محمد](https://telegram.me/A1_d1)
 #Dev :  [عبد الله](https://telegram.me/M1_l1)
 
 
-عندكَ فكره تطوير السورس او البوت تفظل هنأَ☝🏿️
-You have an idea to develop Alsoors or bot prefer ☝🏿️✋🏿
+عندكَ فكره تطوير السورس او البوت تفظل هنأَ☝ߏﯸϊYou have an idea to develop Alsoors or bot prefer ☝ߏﯸϢ܋ߏ
