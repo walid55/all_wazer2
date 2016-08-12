@@ -47,7 +47,7 @@ local S = [[
 ا🔸➖🔹➖🔸➖🔹➖🔸
 🃏🔺للأستفسار:- راسل المطور :- ☢⚜ 
 ✋🏿👇🏿
-Developer :  < @M1_l1 > 
+Developer :  < @DEV__m1 > 
 Developer :  < @A1_b1 >
 ]]
 reply_msg(reply_id, S, ok_cb, false)
