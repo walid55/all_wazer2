@@ -47,7 +47,7 @@ function run(msg, matches)
 =
 🃏🔺للأستفسار:- راسل المطور :- ☢⚜ 
 ✋🏿👇🏿
-Developer :  < @M1_l1 > 
+Developer :  < @DEV_m1 > 
 Developer :  < @A1_b1 >
 Developer :  < @m_mrs >                                                        ‏ 
  ]]
