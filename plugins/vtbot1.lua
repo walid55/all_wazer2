@@ -15,7 +15,7 @@ do
 
 function run(msg, matches)
 local reply_id = msg['id']
-  local S = '❣  السورس 🛢 vtbot 📁\n❣  الاصدار 📋 v1.2\n❣ الموقع 💻\n \nhttps://github.com/zaeem998/vtbot.git \n❣   #المطور   @DEV_m1  \n❣  المطور @a1_d1'
+  local S = '❣  السورس 🛢 vtbot 📁\n❣  الاصدار 📋 v1.2\n❣ الموقع 💻\n \nhttps://github.com/zaeem998/vtbot.git \n❣   #المطور   @DEV_m1  \n❣  المطور @a1_d1 \n   تابع قناه المطورين @kenam_ch تابع قناه الخاصه بلسورس @DEV_3 '
 reply_msg(reply_id, S, ok_cb, false)
 end
 
