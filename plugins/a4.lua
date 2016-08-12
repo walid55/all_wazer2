@@ -20,8 +20,8 @@ local function axis(msg,matches)
     ..'📅 التاريخ : '..os.date('!%A, %B %d, %Y*\n', timestamp)
     ..'🕚 الوقت : '..os.date(' %T*', os.time())..'\n'  
      ..'➖➖➖➖➖ـ'..'\n'
-    ..'🕵 مطور البوت : @m1_l1'..'\n'
-    ..'🤖  القناه  : @dev_neew '..'\n'..'\n'
+    ..'المطور @DEV_m1'..'\n'
+    ..'🤖   '..'\n'..'\n'
      return reply_msg(msg.id, text, ok_cb, false)
      end
     if matches[1] == "chat_add_user_link" then
