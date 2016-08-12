@@ -35,7 +35,7 @@ local function get_weather(location)
     conditions = conditions .. 'مه 🌫'
   end
 
-  return temp .. '\n\n' .. conditions..'\n\nchannel : @Dev_neew'
+  return temp .. '\n\n' .. conditions..'\n\nchannel : @Dev_m1'
 end
 local function DevPoint(msg, matches) 
     city = matches[1]
