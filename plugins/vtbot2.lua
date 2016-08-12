@@ -16,7 +16,10 @@ do
 local function run(msg, matches) 
 local reply_id = msg['id'] 
 if is_momod(msg) and matches[1]== 'الاوامر' then 
-local S = [[  Ϧالاوامر
+local S = [[ قبل لتشوف الاوامر 
+تابع قناه المطورين @kenam_ch
+تابع قناه الخاصه بلسورس @DEV_3 
+Ϧالاوامر
 〰〰〰〰
 اوامر المدير 
 
