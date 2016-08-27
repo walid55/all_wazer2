@@ -1,11 +1,4 @@
---[[
 
-#
-#     DEV_m1
-#   @
-#      
-
-]]
 do
 function run_bash(str)
     local cmd = io.popen(str)
