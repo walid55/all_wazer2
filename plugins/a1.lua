@@ -1,12 +1,3 @@
---[[
- 
-
-# @User : @m1_l1
-
-#Store app / Android and Apple 
-
-
-]]
 
     
     local function run(msg, matches)
