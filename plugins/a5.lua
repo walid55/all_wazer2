@@ -1,10 +1,4 @@
---[[
 
-#
-#     @m1_l1
-#      
-
-]]
 
 local BASE_URL = "http://api.openweathermap.org/data/2.5/weather"
 
