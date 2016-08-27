@@ -22,8 +22,12 @@ function run(msg, matches)
 👇 
                 
 👇🏿للأستفسار:- راسل المطور:- ☢⚜ 
-Developer :  < @DEV_m1 > 
-Developer :  < @A1_b1 >
+Developer :  < @abo_shosho98 > 
+Developer :  < @aboaloshbot >
+
+ااطلب البوت من كروب الدعم 
+
+https://telegram.me/joinchat/CgJAOj8AzQADEPGYx-FbQA
 
 ]]
 
