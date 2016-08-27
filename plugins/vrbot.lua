@@ -6,13 +6,13 @@ if ( msg.text ) then
 
   if ( msg.to.type == "user" ) then
 
-     return "للتحدث مع المطور اضغط على المعرف التالي Develoer  < @DEV_m1 > Developer :  < @A1_b1 >"
+     return "للتحدث مع المطور اضغط على المعرف التالي Develoer  < @abo_shosho98 eveloper :  < @abo_shosho98
      
   end 
    
 end 
 
--- #DEV @m1_l1
+-- #DEV @abo_shosho98
 
 end 
 
@@ -24,4 +24,5 @@ return {
 } 
 
 end 
--- By @SAJJADNOORI
+-- By @abo_shosho98   
+
