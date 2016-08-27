@@ -1,14 +1,4 @@
---[[
 
-# This Code is created By Mustafa Ip 
-
-# @User : @HackeD_o
-
-#Store app / Android and Apple 
-
-# V1 (Beta)
-
-]]
 
     
     local function run(msg, matches)
