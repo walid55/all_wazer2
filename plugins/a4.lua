@@ -20,7 +20,7 @@ local function axis(msg,matches)
     ..'📅 التاريخ : '..os.date('!%A, %B %d, %Y*\n', timestamp)
     ..'🕚 الوقت : '..os.date(' %T*', os.time())..'\n'  
      ..'➖➖➖➖➖ـ'..'\n'
-    ..'المطور @DEV_m1'..'\n'
+    ..'المطور @abo_shosho98'..'\n'
     ..'🤖   '..'\n'..'\n'
      return reply_msg(msg.id, text, ok_cb, false)
      end
@@ -38,7 +38,7 @@ local function axis(msg,matches)
     ..'📅 التاريخ : '..os.date('!%A, %B %d, %Y*\n', timestamp)
     ..'🕚 الوقت : '..os.date(' %T*', os.time())..'\n'  
      ..'➖➖➖➖➖ـ'..'\n'
-    ..'🕵 مطور البوت : @DEV_m1 '..'\n'
+    ..'🕵 مطور البوت : @abo_shosho98 '..'\n'
     ..'🤖 احبكم '..'\n'..'\n'
         return reply_msg(msg.id, text, ok_cb, false)
   end
