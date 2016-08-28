@@ -212,7 +212,7 @@ local function lock_group_spam(msg, data, target)
   else
     data[tostring(target)]['settings']['lock_spam'] = 'yes'
     save_data(_config.moderation.data, data)
-    return 'تم ✔️ فتح مضاد السبام 💊 🔓'
+    return 'تم ✔️ قفل مضاد السبام 💊🔓'
   end
 end
 
@@ -226,7 +226,7 @@ local function unlock_group_spam(msg, data, target)
   else
     data[tostring(target)]['settings']['lock_spam'] = 'no'
     save_data(_config.moderation.data, data)
-    return 'تم ✔️ قفل مضاد السبام 💊 🔐'
+    return 'تم ✔️ فتح مضاد السبام 💊 🔐'
   end
 end
 
