@@ -1,36 +1,32 @@
 
-do
+do 
 
-local function oscar(msg ,matches)
-        if is_sudo(msg) then
-local url = "http://e.top4top.net/p_2016mqh2.jpg"
-local mustafadev = download_to_file(url,'DeaD.jpg')
-  send_photo(get_receiver(msg),mustafadev,ok_cb,false)
-
-        elseif is_owner(msg) then
-        local url = "http://d.top4top.net/p_2010lto1.jpg"
-local mustafadev = download_to_file(url,'DeaD.jpg')
-
-      send_photo(get_receiver(msg),mustafadev,ok_cb,false)
-        elseif is_momod(msg) then
-        local url = "http://c.top4top.net/p_201090j0.jpg"
-local mustafadev = download_to_file(url,'DeaD.jpg')
-
-   send_photo(get_receiver(msg),mustafadev,ok_cb,false)
-        elseif not is_momod(msg) then
-        local url = "http://a.top4top.net/p_201lshk3.jpg"
-local mustafadev = download_to_file(url,'DeaD.jpg')
-
-     send_photo(get_receiver(msg),mustafadev,ok_cb,false)
-        end
-end
+local function iq_abs(msg, matches) 
+if is_sudo(msg) then 
+        local text = "أنـت مـطـور الـبـؤت 🕵🔧".."\n".."🆔 - أيـۧديـۧک : "..msg.from.id.."\n".."🏧- أســمـك : "..msg.from.first_name.."\n".."🚸- مــعــرفــك  : @"..msg.from.username.."\n".."©- أســم ألـمـجـمـوعـة : "..msg.to.title.."\n"..'📱 - رقـۖـمـۗـک : '..(msg.from.phone or "لُايَوَجْدِ ⛔️‼️")
+        return reply_msg(msg.id, text, ok_cb, false) 
+     end 
+if is_momod(msg) then 
+        local text = "أنـت أدمــن ألـكـروب 🛳⚓️".."\n".."🆔 - أيـۧديـۧک : "..msg.from.id.."\n".."🏧- أســمـك : "..msg.from.first_name.."\n".."🚸- مــعــرفــك : @"..msg.from.username.."\n".."©- أســم ألـمـجـمـوعـة : "..msg.to.title.."\n"..'📱 - رقـۖـمـۗـک : '..(msg.from.phone or "لُايَوَجْدِ ⛔️‼️")
+        return reply_msg(msg.id, text, ok_cb, false) 
+     end 
+if not is_momod(msg) then 
+        local text = "أنـت عـضـوو 😹💙".."\n".."🆔 - أيـۧديـۧک : "..msg.from.id.."\n".."🏧- أســمـك : "..msg.from.first_name.."\n".."🚸- مــعــرفــك : @"..msg.from.username.."\n".."©- أسـم ألـمـجـمـوعـة : "..msg.to.title.."\n"..'📱 - رقـۖـمـۗـک : '..(msg.from.phone or "لُايَوَجْدِ ⛔️‼️")
+        return reply_msg(msg.id, text, ok_cb, false) 
+     end 
+if is_owner(msg) then 
+        local text = "أنـت مــديــر ألـكـروب 🤖🤘🏼".."\n".."🆔 - أيـۧديـۧک : "..msg.from.id.."\n".."🏧- أســمـك : "..msg.from.first_name.."\n".."🚸- مــعــرفــك  : @"..msg.from.username.."\n".."©- أســم ألـمـجـمـوعـة : "..msg.to.title.."\n"..'📱 - رقـۖـمـۗـک : '..(msg.from.phone or "لُايَوَجْدِ ⛔️‼️")
+        return reply_msg(msg.id, text, ok_cb, false) 
+     end 
+     end 
 
 return { 
-    patterns = { 
-        "^(me)$"
-    },
-    run = oscar,
-    
-}
---by @m1_l1
-end
+  patterns = { 
+       "^(موقعي)$", 
+  }, 
+  run = iq_abs, 
+} 
+
+end 
+
+-- BY - @IQ_ABS 
