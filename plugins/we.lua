@@ -1,7 +1,4 @@
---[[
-# @m1_l1
-# BY : vtbot
-]]
+
 do
 
 local function oscar(msg ,matches)
