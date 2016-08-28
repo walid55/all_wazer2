@@ -1,12 +1,4 @@
---[[ 
-$ :) 
--- - ( #MASCO_ماسكو ) - -- 
-$ :) 
--- - ( @IQ_ABS ) - -- 
-$ :) 
---Channel-( @DEV_RPOX )-- 
-$ :) 
-]]-- 
+
 local function check_member_super(cb_extra, success, result) 
   local receiver = cb_extra.receiver 
   local data = cb_extra.data 
@@ -2493,9 +2485,9 @@ reply_msg(msg.id, iq_abs, ok_cb, false)
             if not is_muted(chat_id, msg_type..': yes') then 
                savelog(msg.to.id, name_log.." ["..msg.from.id.."] set SuperGroup to: mute "..msg_type) 
                mute(chat_id, msg_type) 
-               return '❗️☻ تـۖم قفـڵ جـمـيع ٱڵـوسـآئط\n‼️🚸   SEND BY   @'..msg.from.username ..'\n🆔 SEND BY ID : '..msg.from.id 
+               return '❗️☻ تم قفل المحادثه\n‼️🚸   SEND BY   @'..msg.from.username ..'\n🆔 SEND BY ID : '..msg.from.id 
             else 
-               return '❗️☻ جـمـيع ٱڵـوسـآئط بٱڵـتٱكيد مۘقفلة\n‼️🚸   SEND BY   @'..msg.from.username ..'\n🆔 SEND BY ID : '..msg.from.id 
+               return '❗️☻ المحادثه بل فعل مقفوله\n‼️🚸   SEND BY   @'..msg.from.username ..'\n🆔 SEND BY ID : '..msg.from.id 
             end 
          end 
       end 
@@ -2566,9 +2558,9 @@ reply_msg(msg.id, iq_abs, ok_cb, false)
             if is_muted(chat_id, msg_type..': yes') then 
                savelog(msg.to.id, name_log.." ["..msg.from.id.."] set SuperGroup to: unmute "..msg_type) 
                unmute(chat_id, msg_type) 
-               return '❗️☻ تـۖم فـتـۧح جـمـيع ٱڵـوسـآئط\n‼️🚸   SEND BY   @'..msg.from.username..'\n🆔 SEND BY ID : '..msg.from.id 
+               return '❗️☻ تم فتح المحادثه\n‼️🚸   SEND BY   @'..msg.from.username..'\n🆔 SEND BY ID : '..msg.from.id 
             else 
-               return '❗️☻ جـمـيع ٱڵـوسـآئط بٱڵـتٱكيد مۘفتوحة\n‼️🚸   SEND BY   @'..msg.from.username..'\n🆔 SEND BY ID : '..msg.from.id 
+               return '❗️☻ المحادثه بل فعل مفتوحه\n‼️🚸   SEND BY   @'..msg.from.username..'\n🆔 SEND BY ID : '..msg.from.id 
             end 
          end 
       end 
