@@ -1,16 +1,4 @@
---[[
-#
-#ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
-#😩
-# For More Information ....! 
-# Developer :  < @M1_l1 > 
-#  Developer :  < @A1_b1 > 
-# our : vrbot
-# Version: 1.1
-#:))
-#ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
-#
-]]
+
 do
 
 local function run(msg, matches)
@@ -47,8 +35,12 @@ local S = [[
 ا🔸➖🔹➖🔸➖🔹➖🔸
 🃏🔺للأستفسار:- راسل المطور :- ☢⚜ 
 ✋🏿👇🏿
-Developer :  < @DEV__m1 > 
-Developer :  < @A1_b1 >
+Developer :  < @abo_shosho98 > 
+Developer :  < @aboaloshbot >
+
+اطلب البوت من كروب الدعم 
+
+https://telegram.me/joinchat/CgJAOj8AzQADEPGYx-FbQA
 ]]
 reply_msg(reply_id, S, ok_cb, false)
 end
