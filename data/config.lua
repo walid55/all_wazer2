@@ -64,7 +64,7 @@ do local _ = {
     "add",
     "ar-redis",
     "ar-run1",
-    "aar(2)",
+    "aar",
     "we",
     "
   },
