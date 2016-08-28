@@ -2183,11 +2183,11 @@ reply_msg(msg.id, iq_abs, ok_cb, false)
             savelog(msg.to.id, name_log.." ["..msg.from.id.."] locked arabic ") 
             return lock_group_arabic(msg, data, target) 
          end 
-         if matches[2] == 'الاضافة' then 
+         if matches[2] == 'الاضافه' then 
             savelog(msg.to.id, name_log.." ["..msg.from.id.."] locked member ") 
             return lock_group_membermod(msg, data, target) 
          end 
-         if matches[2]:lower() == 'اضافة جماعية' then 
+         if matches[2]:lower() == 'اضافه جماعيه' then 
             savelog(msg.to.id, name_log.." ["..msg.from.id.."] locked rtl chars. in names") 
             return lock_group_rtl(msg, data, target) 
          end 
@@ -2203,15 +2203,15 @@ reply_msg(msg.id, iq_abs, ok_cb, false)
             savelog(msg.to.id, name_log.." ["..msg.from.id.."] locked contact posting") 
             return lock_group_contacts(msg, data, target) 
          end 
-         if matches[2] == 'الحماية' then 
+         if matches[2] == 'الحمايه' then 
             savelog(msg.to.id, name_log.." ["..msg.from.id.."] locked enabled strict settings") 
             return enable_strict_rules(msg, data, target) 
          end 
-         if matches[2] == 'الانكليزية' then 
+         if matches[2] == 'الانكليزيه' then 
             savelog(msg.to.id, name_log.." ["..msg.from.id.."] locked english") 
             return lock_group_english(msg, data, target) 
          end 
-         if matches[2] == 'التوجية' then 
+         if matches[2] == 'التوجيه' then 
             savelog(msg.to.id, name_log.." ["..msg.from.id.."] locked fwd") 
             return lock_group_fwd(msg, data, target) 
          end 
@@ -2223,7 +2223,7 @@ reply_msg(msg.id, iq_abs, ok_cb, false)
             savelog(msg.to.id, name_log.." ["..msg.from.id.."] locked emoji") 
             return lock_group_emoji(msg, data, target) 
          end 
-         if matches[2] == 'كلمات سيئة' then 
+         if matches[2] == 'كلمات سيئه' then 
             savelog(msg.to.id, name_log.." ["..msg.from.id.."] locked fosh") 
             return lock_group_fosh(msg, data, target) 
          end 
@@ -2235,7 +2235,7 @@ reply_msg(msg.id, iq_abs, ok_cb, false)
             savelog(msg.to.id, name_log.." ["..msg.from.id.."] locked username") 
             return lock_group_username(msg, data, target) 
          end 
-         if matches[2] == 'مغادرة' then 
+         if matches[2] == 'مغادره' then 
             savelog(msg.to.id, name_log.." ["..msg.from.id.."] locked leave") 
             return lock_group_leave(msg, data, target) 
          end 
@@ -2327,11 +2327,11 @@ reply_msg(msg.id, iq_abs, ok_cb, false)
             savelog(msg.to.id, name_log.." ["..msg.from.id.."] unlocked Arabic") 
             return unlock_group_arabic(msg, data, target) 
          end 
-         if matches[2] == 'الاضافة' then 
+         if matches[2] == 'الاضافه' then 
             savelog(msg.to.id, name_log.." ["..msg.from.id.."] unlocked member ") 
             return unlock_group_membermod(msg, data, target) 
          end 
-         if matches[2]:lower() == 'اضافة جماعية' then 
+         if matches[2]:lower() == 'اضافه جماعيه' then 
             savelog(msg.to.id, name_log.." ["..msg.from.id.."] unlocked RTL chars. in names") 
             return unlock_group_rtl(msg, data, target) 
          end 
@@ -2347,15 +2347,15 @@ reply_msg(msg.id, iq_abs, ok_cb, false)
             savelog(msg.to.id, name_log.." ["..msg.from.id.."] unlocked contact posting") 
             return unlock_group_contacts(msg, data, target) 
          end 
-         if matches[2] == 'الحماية' then 
+         if matches[2] == 'الحمايه' then 
             savelog(msg.to.id, name_log.." ["..msg.from.id.."] locked disabled strict settings") 
             return disable_strict_rules(msg, data, target) 
          end 
-         if matches[2] == 'الانكليزية' then 
+         if matches[2] == 'الانكليزيه' then 
             savelog(msg.to.id, name_log.." ["..msg.from.id.."] unlocked english") 
             return unlock_group_english(msg, data, target) 
          end 
-         if matches[2] == 'التوجية' then 
+         if matches[2] == 'التوجيه' then 
             savelog(msg.to.id, name_log.." ["..msg.from.id.."] unlocked fwd") 
             return unlock_group_fwd(msg, data, target) 
          end 
@@ -2367,7 +2367,7 @@ reply_msg(msg.id, iq_abs, ok_cb, false)
             savelog(msg.to.id, name_log.." ["..msg.from.id.."] locked disabled emoji") 
             return unlock_group_emoji(msg, data, target) 
          end 
-         if matches[2] == 'كلمات سيئة' then 
+         if matches[2] == 'كلمات سيئه' then 
             savelog(msg.to.id, name_log.." ["..msg.from.id.."] unlocked fosh") 
             return unlock_group_fosh(msg, data, target) 
          end 
@@ -2379,7 +2379,7 @@ reply_msg(msg.id, iq_abs, ok_cb, false)
             savelog(msg.to.id, name_log.." ["..msg.from.id.."] locked disabled username") 
             return unlock_group_username(msg, data, target) 
          end 
-         if matches[2] == 'مغادرة' then 
+         if matches[2] == 'مغادره' then 
             savelog(msg.to.id, name_log.." ["..msg.from.id.."] locked leave") 
             return unlock_group_leave(msg, data, target) 
          end 
@@ -2450,7 +2450,7 @@ reply_msg(msg.id, iq_abs, ok_cb, false)
                return ' ❗️☻ ٱڵـفيډيۄ بٱڵفعـل مۘقفلة فيۧ ٱڵمجـمۄعة\n‼️🚸   SEND BY   @'..msg.from.username ..'\n🆔 SEND BY ID : '..msg.from.id 
             end 
          end 
-         if matches[2] == 'المتحركة' then 
+         if matches[2] == 'المتحركه' then 
          local msg_type = 'Gifs' 
             if not is_muted(chat_id, msg_type..': yes') then 
                savelog(msg.to.id, name_log.." ["..msg.from.id.."] set SuperGroup to: mute "..msg_type) 
@@ -2470,7 +2470,7 @@ reply_msg(msg.id, iq_abs, ok_cb, false)
                return '❗️☻ ٱڵـمٌلفـآټ بٱڵفعـل مۘقفلة فيۧ ٱڵمجـمۄعة\n‼️🚸   SEND BY   @'..msg.from.username ..'\n🆔 SEND BY ID : '..msg.from.id 
             end 
          end 
-         if matches[2] == 'الكتابة' then 
+         if matches[2] == 'الكتابه' then 
          local msg_type = 'Text' 
             if not is_muted(chat_id, msg_type..': yes') then 
                savelog(msg.to.id, name_log.." ["..msg.from.id.."] set SuperGroup to: mute "..msg_type) 
@@ -2480,7 +2480,7 @@ reply_msg(msg.id, iq_abs, ok_cb, false)
                return '❗️☻ ٱڵكِتـآبة بٱڵفعـل مۘقفلة فيۧ ٱڵمجـمۄعة\n‼️🚸   SEND BY   @'..msg.from.username ..'\n🆔 SEND BY ID : '..msg.from.id 
             end 
          end 
-         if matches[2] == 'المحادثة' then 
+         if matches[2] == 'المحادثه' then 
          local msg_type = 'All' 
             if not is_muted(chat_id, msg_type..': yes') then 
                savelog(msg.to.id, name_log.." ["..msg.from.id.."] set SuperGroup to: mute "..msg_type) 
@@ -2523,7 +2523,7 @@ reply_msg(msg.id, iq_abs, ok_cb, false)
                return '❗️☻ ٱڵـفيډيۄ بٱڵفعـل مۧفتوحة فيۧ ٱڵمجـمۄعة\n‼️🚸   SEND BY   @'..msg.from.username..'\n🆔 SEND BY ID : '..msg.from.id 
             end 
          end 
-         if matches[2] == 'المتحركة' then 
+         if matches[2] == 'المتحركه' then 
          local msg_type = 'Gifs' 
             if is_muted(chat_id, msg_type..': yes') then 
                savelog(msg.to.id, name_log.." ["..msg.from.id.."] set SuperGroup to: unmute "..msg_type) 
@@ -2543,7 +2543,7 @@ reply_msg(msg.id, iq_abs, ok_cb, false)
                return '❗️☻ ٱڵـمٌلفـآټ بٱڵفعـل مۧفتوحة فيۧ ٱڵمجـمۄعة\n‼️🚸   SEND BY   @'..msg.from.username..'\n🆔 SEND BY ID : '..msg.from.id 
             end 
          end 
-         if matches[2] == 'الكتابة' then 
+         if matches[2] == 'المحادثه' then 
          local msg_type = 'Text' 
             if is_muted(chat_id, msg_type..': yes') then 
                savelog(msg.to.id, name_log.." ["..msg.from.id.."] set SuperGroup to: unmute message") 
@@ -2553,7 +2553,7 @@ reply_msg(msg.id, iq_abs, ok_cb, false)
                return '❗️☻ ٱڵكِتـآبة بٱڵفعـل مۧفتوحة فيۧ ٱڵمجـمۄعة\n‼️🚸   SEND BY   @'..msg.from.username..'\n🆔 SEND BY ID : '..msg.from.id 
             end 
          end 
-         if matches[2] == 'المحادثة' then 
+         if matches[2] == 'المحادثه' then 
          local msg_type = 'All' 
             if is_muted(chat_id, msg_type..': yes') then 
                savelog(msg.to.id, name_log.." ["..msg.from.id.."] set SuperGroup to: unmute "..msg_type) 
@@ -2756,5 +2756,5 @@ return {
   pre_process = pre_process 
 } 
 
---    @DEV_PROX 
--- @IQ_ABS #عبس_ماسكو 
+--    @DEv_ all_wazer2
+-- @abo_shosho98
